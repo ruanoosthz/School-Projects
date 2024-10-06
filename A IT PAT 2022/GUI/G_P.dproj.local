@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022-08-19 13:28:16.592.pas,C:\Users\M24-R Oosthuizen\Documents\RAD Studio\Projects\Unit1.pas=\\tsclient\USB\3de Kwartaal PAT\GUI\G_U.pas</Transaction>
+    <Transaction>2022-08-19 13:28:16.592.dfm,C:\Users\M24-R Oosthuizen\Documents\RAD Studio\Projects\Unit1.dfm=\\tsclient\USB\3de Kwartaal PAT\GUI\G_U.dfm</Transaction>
+    <Transaction>2022-08-19 13:28:25.354.dproj,C:\Users\M24-R Oosthuizen\Documents\RAD Studio\Projects\Project1.dproj=\\tsclient\USB\3de Kwartaal PAT\GUI\G_P.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

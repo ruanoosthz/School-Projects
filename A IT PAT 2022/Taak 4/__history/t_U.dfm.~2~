@@ -1,0 +1,707 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 431
+  ClientWidth = 603
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 19
+  object PageControl1: TPageControl
+    Left = 32
+    Top = 32
+    Width = 537
+    Height = 353
+    ActivePage = TabSheet2
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Game 1'
+      ExplicitLeft = 0
+      object Label3: TLabel
+        Left = 392
+        Top = 293
+        Width = 102
+        Height = 23
+        Caption = ' Score: ......'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clRed
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label4: TLabel
+        Left = 36
+        Top = 287
+        Width = 84
+        Height = 23
+        Caption = 'Time: .....'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clLime
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Button1: TButton
+        Left = 535
+        Top = 320
+        Width = 68
+        Height = 25
+        Caption = 'Button1'
+        TabOrder = 0
+      end
+      object Button2: TButton
+        Left = 152
+        Top = 290
+        Width = 107
+        Height = 25
+        Caption = 'Start Game '
+        TabOrder = 1
+      end
+      object GridPanel1: TGridPanel
+        Left = 0
+        Top = 0
+        Width = 529
+        Height = 285
+        Align = alTop
+        Color = clGradientActiveCaption
+        ColumnCollection = <
+          item
+            Value = 20.847334854055410000
+          end
+          item
+            Value = 19.821405731273800000
+          end
+          item
+            Value = 19.577486002283560000
+          end
+          item
+            Value = 19.539289959788530000
+          end
+          item
+            Value = 20.214483452598700000
+          end>
+        ControlCollection = <
+          item
+            Column = -1
+            Row = -1
+            RowSpan = 4
+          end
+          item
+            Column = 4
+            Control = Label2
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Label1
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Label5
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Label6
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Label7
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = Label8
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Label9
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Label10
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = Label11
+            Row = 1
+          end
+          item
+            Column = 3
+            Control = Label12
+            Row = 1
+          end
+          item
+            Column = 4
+            Control = Label13
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Label14
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = Label15
+            Row = 2
+          end
+          item
+            Column = 2
+            Control = Label16
+            Row = 2
+          end
+          item
+            Column = 3
+            Control = Label17
+            Row = 2
+          end>
+        ParentBackground = False
+        RowCollection = <
+          item
+            Value = 33.333333333333340000
+          end
+          item
+            Value = 33.333333333333340000
+          end
+          item
+            Value = 33.333333333333340000
+          end>
+        TabOrder = 2
+        DesignSize = (
+          529
+          285)
+        object Label2: TLabel
+          Left = 456
+          Top = 189
+          Width = 72
+          Height = 95
+          Align = alRight
+          Caption = '#'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -48
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitHeight = 52
+        end
+        object Label1: TLabel
+          Left = 8
+          Top = 40
+          Width = 95
+          Height = 16
+          Anchors = []
+          Caption = '<'#39'GOAL'#39' Image>'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          ExplicitLeft = 1
+          ExplicitTop = 38
+        end
+        object Label5: TLabel
+          Left = 110
+          Top = 1
+          Width = 18
+          Height = 94
+          Align = alLeft
+          Caption = '14'
+          ExplicitHeight = 19
+        end
+        object Label6: TLabel
+          Left = 214
+          Top = 1
+          Width = 18
+          Height = 94
+          Align = alLeft
+          Caption = '13'
+          ExplicitHeight = 19
+        end
+        object Label7: TLabel
+          Left = 317
+          Top = 1
+          Width = 18
+          Height = 94
+          Align = alLeft
+          Caption = '12'
+          ExplicitHeight = 19
+        end
+        object Label8: TLabel
+          Left = 419
+          Top = 1
+          Width = 18
+          Height = 94
+          Align = alLeft
+          Caption = '11'
+          ExplicitHeight = 19
+        end
+        object Label9: TLabel
+          Left = 1
+          Top = 95
+          Width = 18
+          Height = 94
+          Align = alLeft
+          Caption = '10'
+          ExplicitTop = 106
+          ExplicitHeight = 19
+        end
+        object Label10: TLabel
+          Left = 110
+          Top = 95
+          Width = 9
+          Height = 94
+          Align = alLeft
+          Caption = '9'
+          ExplicitTop = 106
+          ExplicitHeight = 19
+        end
+        object Label11: TLabel
+          Left = 214
+          Top = 95
+          Width = 9
+          Height = 94
+          Align = alLeft
+          Caption = '8'
+          ExplicitTop = 106
+          ExplicitHeight = 19
+        end
+        object Label12: TLabel
+          Left = 317
+          Top = 95
+          Width = 9
+          Height = 94
+          Align = alLeft
+          Caption = '7'
+          ExplicitTop = 106
+          ExplicitHeight = 19
+        end
+        object Label13: TLabel
+          Left = 419
+          Top = 95
+          Width = 9
+          Height = 94
+          Align = alLeft
+          Caption = '6'
+          ExplicitTop = 106
+          ExplicitHeight = 19
+        end
+        object Label14: TLabel
+          Left = 1
+          Top = 189
+          Width = 9
+          Height = 95
+          Align = alLeft
+          Caption = '5'
+          ExplicitTop = 211
+          ExplicitHeight = 19
+        end
+        object Label15: TLabel
+          Left = 110
+          Top = 189
+          Width = 9
+          Height = 95
+          Align = alLeft
+          Caption = '4'
+          ExplicitTop = 211
+          ExplicitHeight = 19
+        end
+        object Label16: TLabel
+          Left = 214
+          Top = 189
+          Width = 9
+          Height = 95
+          Align = alLeft
+          Caption = '3'
+          ExplicitTop = 211
+          ExplicitHeight = 19
+        end
+        object Label17: TLabel
+          Left = 317
+          Top = 189
+          Width = 9
+          Height = 95
+          Align = alLeft
+          Caption = '2'
+          ExplicitTop = 211
+          ExplicitHeight = 19
+        end
+      end
+      object Button3: TButton
+        Left = 265
+        Top = 290
+        Width = 107
+        Height = 25
+        Caption = 'End Game'
+        TabOrder = 3
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Game 2'
+      ImageIndex = 1
+      ExplicitLeft = 12
+      object Label18: TLabel
+        Left = 419
+        Top = 29
+        Width = 102
+        Height = 23
+        Caption = ' Score: ......'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clRed
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label33: TLabel
+        Left = 423
+        Top = 3
+        Width = 84
+        Height = 23
+        Caption = 'Time: .....'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clLime
+        Font.Height = -19
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        ParentFont = False
+      end
+      object GridPanel2: TGridPanel
+        Left = 0
+        Top = 0
+        Width = 417
+        Height = 319
+        Align = alLeft
+        Color = clMoneyGreen
+        ColumnCollection = <
+          item
+            Value = 20.847334854055410000
+          end
+          item
+            Value = 19.821405731273800000
+          end
+          item
+            Value = 19.577486002283560000
+          end
+          item
+            Value = 19.539289959788530000
+          end
+          item
+            Value = 20.214483452598700000
+          end>
+        ControlCollection = <
+          item
+            Column = -1
+            Row = -1
+            RowSpan = 4
+          end
+          item
+            Column = 1
+            Control = Label20
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Label21
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Label22
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = Label23
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Label24
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Label25
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = Label26
+            Row = 1
+          end
+          item
+            Column = 3
+            Control = Label27
+            Row = 1
+          end
+          item
+            Column = 4
+            Control = Label28
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Label29
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = Label30
+            Row = 2
+          end
+          item
+            Column = 2
+            Control = Label31
+            Row = 2
+          end
+          item
+            Column = 3
+            Control = Label32
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Memo1
+            Row = 0
+          end
+          item
+            Column = 4
+            Control = Memo2
+            Row = 2
+          end>
+        ParentBackground = False
+        RowCollection = <
+          item
+            Value = 33.333333333333340000
+          end
+          item
+            Value = 33.333333333333340000
+          end
+          item
+            Value = 33.333333333333340000
+          end>
+        TabOrder = 0
+        ExplicitHeight = 529
+        object Label20: TLabel
+          Left = 87
+          Top = 1
+          Width = 18
+          Height = 105
+          Align = alLeft
+          Caption = '14'
+          ExplicitLeft = 110
+          ExplicitHeight = 19
+        end
+        object Label21: TLabel
+          Left = 169
+          Top = 1
+          Width = 18
+          Height = 105
+          Align = alLeft
+          Caption = '13'
+          ExplicitLeft = 214
+          ExplicitHeight = 19
+        end
+        object Label22: TLabel
+          Left = 250
+          Top = 1
+          Width = 18
+          Height = 105
+          Align = alLeft
+          Caption = '12'
+          ExplicitLeft = 317
+          ExplicitHeight = 19
+        end
+        object Label23: TLabel
+          Left = 331
+          Top = 1
+          Width = 18
+          Height = 105
+          Align = alLeft
+          Caption = '11'
+          ExplicitLeft = 419
+          ExplicitHeight = 19
+        end
+        object Label24: TLabel
+          Left = 1
+          Top = 106
+          Width = 18
+          Height = 105
+          Align = alLeft
+          Caption = '10'
+          ExplicitTop = 95
+          ExplicitHeight = 19
+        end
+        object Label25: TLabel
+          Left = 87
+          Top = 106
+          Width = 9
+          Height = 105
+          Align = alLeft
+          Caption = '9'
+          ExplicitLeft = 110
+          ExplicitTop = 95
+          ExplicitHeight = 19
+        end
+        object Label26: TLabel
+          Left = 169
+          Top = 106
+          Width = 9
+          Height = 105
+          Align = alLeft
+          Caption = '8'
+          ExplicitLeft = 214
+          ExplicitTop = 95
+          ExplicitHeight = 19
+        end
+        object Label27: TLabel
+          Left = 250
+          Top = 106
+          Width = 9
+          Height = 105
+          Align = alLeft
+          Caption = '7'
+          ExplicitLeft = 317
+          ExplicitTop = 95
+          ExplicitHeight = 19
+        end
+        object Label28: TLabel
+          Left = 331
+          Top = 106
+          Width = 9
+          Height = 105
+          Align = alLeft
+          Caption = '6'
+          ExplicitLeft = 419
+          ExplicitTop = 95
+          ExplicitHeight = 19
+        end
+        object Label29: TLabel
+          Left = 1
+          Top = 211
+          Width = 9
+          Height = 107
+          Align = alLeft
+          Caption = '5'
+          ExplicitTop = 189
+          ExplicitHeight = 19
+        end
+        object Label30: TLabel
+          Left = 87
+          Top = 211
+          Width = 9
+          Height = 107
+          Align = alLeft
+          Caption = '4'
+          ExplicitLeft = 96
+        end
+        object Label31: TLabel
+          Left = 169
+          Top = 211
+          Width = 9
+          Height = 107
+          Align = alLeft
+          Caption = '3'
+          ExplicitLeft = 214
+          ExplicitTop = 189
+          ExplicitHeight = 19
+        end
+        object Label32: TLabel
+          Left = 250
+          Top = 211
+          Width = 9
+          Height = 107
+          Align = alLeft
+          Caption = '2'
+          ExplicitLeft = 317
+          ExplicitTop = 189
+          ExplicitHeight = 19
+        end
+        object Memo1: TMemo
+          Left = 1
+          Top = 1
+          Width = 86
+          Height = 105
+          Align = alClient
+          Lines.Strings = (
+            '15'
+            '< '#39'Goal'#39' '
+            'Image >')
+          TabOrder = 0
+          ExplicitLeft = 32
+          ExplicitTop = 48
+          ExplicitWidth = 185
+          ExplicitHeight = 89
+        end
+        object Memo2: TMemo
+          Left = 331
+          Top = 211
+          Width = 85
+          Height = 107
+          Align = alClient
+          Lines.Strings = (
+            '1'
+            '<Avatar>')
+          TabOrder = 1
+          ExplicitLeft = 368
+          ExplicitTop = 264
+          ExplicitWidth = 185
+          ExplicitHeight = 89
+        end
+      end
+      object Button4: TButton
+        Left = 420
+        Top = 104
+        Width = 107
+        Height = 25
+        Caption = 'Begin Game'
+        TabOrder = 1
+      end
+      object Button5: TButton
+        Left = 420
+        Top = 262
+        Width = 107
+        Height = 25
+        Caption = 'End Game'
+        TabOrder = 2
+      end
+      object Memo3: TMemo
+        Left = 422
+        Top = 147
+        Width = 104
+        Height = 89
+        Color = clSkyBlue
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -27
+        Font.Name = 'Tahoma'
+        Font.Style = []
+        Lines.Strings = (
+          'Tango'
+          'Trivia!')
+        ParentFont = False
+        TabOrder = 3
+      end
+    end
+  end
+  object Timer1: TTimer
+    Left = 32
+    Top = 392
+  end
+end
