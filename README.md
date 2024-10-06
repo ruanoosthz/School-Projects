@@ -1,2 +1,2 @@
-# School-Projects
-All the projects I have done during school for assignments.
+# Grade 10: Math Game
+Document not currently available.
